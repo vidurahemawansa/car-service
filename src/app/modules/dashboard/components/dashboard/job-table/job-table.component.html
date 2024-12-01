@@ -1,0 +1,30 @@
+<nz-table
+  #basicTable
+  [nzData]="jobList"
+  [nzFrontPagination]="true"
+  [nzPageSize]="5"
+  [nzTotal]="jobList.length"
+>
+  <thead>
+    <tr>
+      <th>Vehicle Type</th>
+      <th>License Plate</th>
+      <th>Job Type</th>
+      <th>Job Owner</th>
+      <th>Job Done</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (job of basicTable.data; track $index) {
+      <tr>
+        <td>{{ job.vehicleType }}</td>
+        <td>{{ job.licensePlate }}</td>
+        <td>{{ job.jobType }}</td>
+        <td>{{ job.jobOwner }}</td>
+        <td>
+          <nz-switch [ngModel]="job.isJobDone" (ngModelChange)="toggleJobStatus(job, $event)"> </nz-switch>
+        </td>
+      </tr>
+    }
+  </tbody>
+</nz-table>

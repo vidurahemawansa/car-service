@@ -1,0 +1,58 @@
+[
+  {
+    "vehicleType": "Car",
+    "licensePlate": "KN-1859",
+    "jobType": "Repair",
+    "jobOwner": "John",
+    "isJobDone": false
+  },
+  {
+    "vehicleType": "Car",
+    "licensePlate": "KN-2259",
+    "jobType": "Body Wash",
+    "jobOwner": "Vidura",
+    "isJobDone": true
+  },
+  {
+    "vehicleType": "Van",
+    "licensePlate": "CAA-1859",
+    "jobType": "Repair",
+    "jobOwner": "Nuwan",
+    "isJobDone": false
+  },
+  {
+    "vehicleType": "Car",
+    "licensePlate": "KN-2259",
+    "jobType": "Full Service",
+    "jobOwner": "Vidura",
+    "isJobDone": true
+  },
+  {
+    "vehicleType": "Car",
+    "licensePlate": "300-1859",
+    "jobType": "Repair",
+    "jobOwner": "John",
+    "isJobDone": false
+  },
+  {
+    "vehicleType": "Car",
+    "licensePlate": "65-2259",
+    "jobType": "Body Wash",
+    "jobOwner": "Vidura",
+    "isJobDone": false
+  },
+  {
+    "vehicleType": "Jeep",
+    "licensePlate": "CAA-5874",
+    "jobType": "Repair",
+    "jobOwner": "Nuwan",
+    "isJobDone": false
+  },
+  {
+    "vehicleType": "Car",
+    "licensePlate": "CBB-1235",
+    "jobType": "Full Service",
+    "jobOwner": "Vidura",
+    "isJobDone": false
+  }
+]

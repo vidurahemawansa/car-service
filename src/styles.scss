@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-container {
+  @apply max-w-5xl border-0 border-gray-300 rounded-lg mx-auto flex flex-col mt-6 p-4;
+}
+.sub-header {
+  @apply font-semibold text-center mb-6 text-2xl;
+}
+.btn-primary {
+  @apply ml-32 w-form-btn h-10 bg-gradient-to-r from-purple-500 to-blue-500 font-semibold text-base rounded-md;
+}
+.error-message {
+  @apply text-red-600;
+}
+
+@media (min-width: 992px) {
+  .section-container{
+    @apply border;
+  }
+}

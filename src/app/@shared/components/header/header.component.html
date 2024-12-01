@@ -1,0 +1,19 @@
+<div class="header-container">
+  <app-menu></app-menu>
+
+  <ul class="language-switcher">
+    <li (click)="switchLanguage('English')">En</li>
+    <li (click)="switchLanguage('Korean')">Kr</li>
+  </ul>
+
+  <div class="user-details">
+    @if ((auth.isAuthenticated$ | async) && userRole) {
+      @if (auth.user$ | async; as user) {
+        <p>{{user?.name}} Logged in as {{userRole}}</p>
+      }
+      <button (click)="logout()">
+        Log out
+      </button>
+    }
+  </div>
+</div>

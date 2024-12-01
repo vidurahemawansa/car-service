@@ -1,0 +1,25 @@
+.sider-menu {
+  @apply flex-col justify-center gap-6 border-0 hidden;
+  li {
+    a {
+      &.active {
+        @apply text-lightblue;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    @apply flex-row flex;
+  }
+}
+
+.menu-icon {
+  @apply text-white text-lg p-1 bg-black rounded-md;
+  @media (min-width: 992px) {
+    @apply hidden;
+  }
+}
+
+.main-menu {
+  @apply flex flex-col gap-8 fixed top-16 left-0 w-full h-full p-4 bg-white z-10;
+}

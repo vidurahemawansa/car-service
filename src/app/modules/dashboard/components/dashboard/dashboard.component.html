@@ -1,0 +1,8 @@
+<div class="container dashboard-container">
+  <div class="main-intro">
+    <h1>{{'welcome_txt' | translate}}</h1>
+    <p>{{jobList.length}} {{'vehicles_in_facility' | translate}}</p>
+    <app-job-table [jobList]="jobList"></app-job-table>
+  </div>
+  <app-pie-chart [jobList]="jobList"></app-pie-chart>
+</div>

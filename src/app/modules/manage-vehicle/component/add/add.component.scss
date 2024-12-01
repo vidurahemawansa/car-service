@@ -1,0 +1,17 @@
+.add-form-container {
+  nz-form-item {
+    @apply flex flex-col;
+    nz-form-label {
+      @apply w-32 mb-0 p-0;
+    }
+    nz-form-control {
+      @apply flex flex-col;
+    }
+  }
+
+  @media (min-width: 992px) {
+    nz-form-item {
+      @apply flex-row;
+    }
+  }
+}

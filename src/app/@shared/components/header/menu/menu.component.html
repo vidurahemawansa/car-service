@@ -1,0 +1,19 @@
+<ul nz-menu nzMode="horizontal" class="sider-menu">
+  <li><a routerLink="/dashboard" routerLinkActive="active" class="menu-item">{{'menu_dashboard' | translate}}</a></li>
+  <li><a routerLink="/manage-vehicle/add" routerLinkActive="active" class="menu-item">{{'menu_manage' | translate}}</a></li>
+</ul>
+<span class="menu-icon" nz-icon nzType="bars" nzTheme="outline" (click)="toggleCollapsed()"></span>
+@if (isExpanded) {
+  <div class="mobile-menu">
+    <ul nz-menu nzMode="vertical" class="main-menu">
+      <li (click)="isExpanded = false">
+        <a routerLink="/dashboard" routerLinkActive="active" class="menu-item">{{'menu_dashboard' | translate}}</a>
+      </li>
+      <li (click)="isExpanded = false">
+        <a routerLink="/manage-vehicle/add" routerLinkActive="active" class="menu-item">{{'menu_manage' | translate}}</a>
+      </li>
+    </ul>
+  </div>
+}
+
+
