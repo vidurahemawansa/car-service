@@ -9,7 +9,7 @@
   <div class="user-details">
     @if ((auth.isAuthenticated$ | async) && userRole) {
       @if (auth.user$ | async; as user) {
-        <p>{{user?.name}} Logged in as {{userRole}}</p>
+        <p>{{userRole}}</p>
       }
       <button (click)="logout()">
         Log out

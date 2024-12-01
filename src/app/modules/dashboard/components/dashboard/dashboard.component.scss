@@ -8,7 +8,14 @@
     }
   }
 
+  .main-intro {
+    @apply border-0;
+  }
+
   @media (min-width: 992px) {
     @apply flex-row;
+    .main-intro {
+      @apply border;
+    }
   }
 }
