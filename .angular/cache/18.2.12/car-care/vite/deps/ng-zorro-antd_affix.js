@@ -2,10 +2,6 @@ import {
   NzResizeObserver
 } from "./chunk-I63NQKJU.js";
 import {
-  NzConfigService,
-  WithConfig
-} from "./chunk-DBDQDJQI.js";
-import {
   NzScrollService
 } from "./chunk-XRQVHHWH.js";
 import "./chunk-GPDSLJVE.js";
@@ -13,6 +9,10 @@ import {
   BidiModule,
   Directionality
 } from "./chunk-FVH6GWSM.js";
+import {
+  NzConfigService,
+  WithConfig
+} from "./chunk-DBDQDJQI.js";
 import {
   getStyleAsText,
   numberAttributeWithZeroFallback,
@@ -55,11 +55,11 @@ import {
   ɵɵqueryRefresh,
   ɵɵviewQuery
 } from "./chunk-CZMIDZBS.js";
-import "./chunk-CGBIJRYX.js";
 import {
   fromEvent,
   merge
 } from "./chunk-AFUZPXFM.js";
+import "./chunk-CGBIJRYX.js";
 import {
   ReplaySubject,
   Subject,

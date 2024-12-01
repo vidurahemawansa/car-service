@@ -1,12 +1,32 @@
 import {
-  NzGridModule
-} from "./chunk-IGPH7MZX.js";
-import {
   NzI18nService
 } from "./chunk-LENWXSJA.js";
 import {
+  DEFAULT_TOOLTIP_POSITIONS,
+  NzConnectedOverlayDirective,
+  NzNoAnimationDirective,
+  NzOverlayModule,
+  POSITION_MAP,
+  getPlacementName
+} from "./chunk-NDE6SP6V.js";
+import {
+  CdkConnectedOverlay,
+  OverlayModule,
+  helpMotion,
+  zoomBigMotion
+} from "./chunk-XXPDOFLT.js";
+import {
+  NzGridModule
+} from "./chunk-IGPH7MZX.js";
+import {
   NzFormStatusService
 } from "./chunk-KKOYQEQV.js";
+import {
+  NzOutletModule,
+  NzStringTemplateOutletDirective
+} from "./chunk-VZBXS5E2.js";
+import "./chunk-XRQVHHWH.js";
+import "./chunk-GPDSLJVE.js";
 import {
   AbstractControl,
   FormControlDirective,
@@ -15,23 +35,8 @@ import {
   NgModel
 } from "./chunk-5MAJOYTP.js";
 import {
-  DEFAULT_TOOLTIP_POSITIONS,
-  NzConnectedOverlayDirective,
-  NzNoAnimationDirective,
-  NzOverlayModule,
-  POSITION_MAP,
-  getPlacementName
-} from "./chunk-C54ALABM.js";
-import {
-  CdkConnectedOverlay,
-  OverlayModule,
-  helpMotion,
-  zoomBigMotion
-} from "./chunk-A77252HI.js";
-import {
-  NzOutletModule,
-  NzStringTemplateOutletDirective
-} from "./chunk-5PAF57XC.js";
+  Directionality
+} from "./chunk-FVH6GWSM.js";
 import {
   NzIconDirective,
   NzIconModule
@@ -41,11 +46,6 @@ import {
   WithConfig,
   isPresetColor
 } from "./chunk-DBDQDJQI.js";
-import "./chunk-XRQVHHWH.js";
-import "./chunk-GPDSLJVE.js";
-import {
-  Directionality
-} from "./chunk-FVH6GWSM.js";
 import {
   isNotNil,
   toBoolean
@@ -121,10 +121,10 @@ import {
   ɵɵtextInterpolate,
   ɵɵviewQuery
 } from "./chunk-CZMIDZBS.js";
-import "./chunk-CGBIJRYX.js";
 import {
   asapScheduler
 } from "./chunk-AFUZPXFM.js";
+import "./chunk-CGBIJRYX.js";
 import {
   Subject,
   Subscription,
