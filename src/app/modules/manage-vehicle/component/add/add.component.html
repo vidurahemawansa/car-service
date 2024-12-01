@@ -1,0 +1,71 @@
+<div class="section-container add-form-container">
+  <h3 class="sub-header">Add Job</h3>
+  <form [formGroup]="addVehicleForm" (ngSubmit)="onSubmit()">
+    <nz-form-item>
+      <nz-form-label [nzFor]="'vehicleType'" nzRequired>Vehicle Type</nz-form-label>
+      <nz-form-control>
+        <nz-select formControlName="vehicleType" nzPlaceHolder="Select a vehicle type">
+          @for (type of vehicleTypes; track $index) {
+            <nz-option [nzValue]="type" [nzLabel]="type"></nz-option>
+          }
+        </nz-select>
+        @if (addVehicleForm.get('vehicleType')?.touched && addVehicleForm.get('vehicleType')?.hasError('required')) {
+          <span class="error-message">Vehicle type is required.</span>
+        }
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'licensePlate'" nzRequired>License Plate</nz-form-label>
+      <nz-form-control [nzErrorTip]="licensePlateErrorTpl">
+        <input nz-input formControlName="licensePlate" (input)="formatLicensePlate($event)" placeholder="KX-1587" />
+        <ng-template #licensePlateErrorTpl>
+          @if (addVehicleForm.get('licensePlate')?.touched && addVehicleForm.get('licensePlate')?.errors) {
+            <span class="error-message">Please enter a valid license plate number.</span>
+          }
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'jobType'" nzRequired>Job Type</nz-form-label>
+      <nz-form-control [nzErrorTip]="jobTypeErrorTpl">
+        <nz-select formControlName="jobType" nzPlaceHolder="Select a job type">
+          @for (type of jobTypes; track $index) {
+            <nz-option [nzValue]="type" [nzLabel]="type"></nz-option>
+          }
+        </nz-select>
+        <ng-template #jobTypeErrorTpl>
+          @if (addVehicleForm.get('jobType')?.touched && addVehicleForm.get('jobType')?.errors) {
+            <span class="error-message">Job type is required.</span>
+          }
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'jobOwner'" nzRequired>Job Owner</nz-form-label>
+      <nz-form-control>
+        <nz-select formControlName="jobOwner" nzPlaceHolder="Select a job owner">
+          @for (owner of jobOwners; track $index) {
+            <nz-option [nzValue]="owner" [nzLabel]="owner"></nz-option>
+          }
+        </nz-select>
+        <ng-template #jobOwnerErrorTpl>
+          @if (addVehicleForm.get('jobOwner')?.touched && addVehicleForm.get('jobOwner')?.errors) {
+            <span class="error-message">Job owner is required.</span>
+          }
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+  
+    <nz-form-item>
+      <nz-form-label [nzFor]="'isJobDone'">Job Status</nz-form-label>
+      <nz-form-control>
+        <nz-switch formControlName="isJobDone" [nzCheckedChildren]="'Done'" [nzUnCheckedChildren]="'In Progress'"></nz-switch>
+      </nz-form-control>
+    </nz-form-item>
+  
+    <button class="btn-primary" nz-button nzType="primary" type="submit" [disabled]="isSubmitting">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,21 @@
+.dashboard-container {
+  @apply flex flex-col mx-auto px-4 gap-4 mt-8;
+  .main-intro,
+  app-pie-chart {
+    @apply w-full md:w-1/2 px-2 py-4 border border-gray-400 rounded-md justify-center flex flex-col items-center;
+    h1 {
+      @apply text-2xl font-semibold;
+    }
+  }
+
+  .main-intro {
+    @apply border-0;
+  }
+
+  @media (min-width: 992px) {
+    @apply flex-row;
+    .main-intro {
+      @apply border;
+    }
+  }
+}
