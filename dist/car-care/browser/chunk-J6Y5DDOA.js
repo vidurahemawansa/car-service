@@ -1,0 +1,1 @@
+import{Hb as c,Kb as n,P as a,S as e,p as o}from"./chunk-R56QVF26.js";var m=class r{constructor(t,i){this.auth=t;this.router=i}canActivate(){return this.auth.isAuthenticated$.pipe(o(t=>(t||this.router.navigate(["/login"]),t)))}static \u0275fac=function(i){return new(i||r)(e(n),e(c))};static \u0275prov=a({token:r,factory:r.\u0275fac,providedIn:"root"})};export{m as a};

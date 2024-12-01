@@ -1,0 +1,402 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.1.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "car-care": [
+        {
+          "file": ".editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "6555249716513347378"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "14075834438752640208"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17406702432687230417"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "10093397977228577162"
+        },
+        {
+          "file": "README.md",
+          "hash": "15214379049863904463"
+        },
+        {
+          "file": "_nx.json",
+          "hash": "9098723802146898691"
+        },
+        {
+          "file": "_project.json",
+          "hash": "8945286433349942924"
+        },
+        {
+          "file": "angular.json",
+          "hash": "3991727677096038739"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "7572298442682777510"
+        },
+        {
+          "file": "package.json",
+          "hash": "17591741597538485546",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular-devkit/core",
+            "npm:@angular-devkit/schematics",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@schematics/angular",
+            "npm:@types/jasmine",
+            "npm:autoprefixer",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:postcss",
+            "npm:postcss-import",
+            "npm:postcss-loader",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@auth0/auth0-angular",
+            "npm:ng-zorro-antd",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "postcss.config.js",
+          "hash": "14060268490020808491",
+          "deps": [
+            "npm:postcss-import",
+            "npm:tailwindcss",
+            "npm:autoprefixer"
+          ]
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "src/app/@shared/components/header/header.component.html",
+          "hash": "321638846647135118"
+        },
+        {
+          "file": "src/app/@shared/components/header/header.component.scss",
+          "hash": "10891700640611040233"
+        },
+        {
+          "file": "src/app/@shared/components/header/header.component.spec.ts",
+          "hash": "3248092532361185820",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/@shared/components/header/header.component.ts",
+          "hash": "3611421212166806981",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@auth0/auth0-angular"
+          ]
+        },
+        {
+          "file": "src/app/@shared/components/header/menu/menu.component.html",
+          "hash": "11832385145857504635"
+        },
+        {
+          "file": "src/app/@shared/components/header/menu/menu.component.scss",
+          "hash": "7946732725675649027"
+        },
+        {
+          "file": "src/app/@shared/components/header/menu/menu.component.spec.ts",
+          "hash": "5299318287109222375",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/@shared/components/header/menu/menu.component.ts",
+          "hash": "2650575199107729423",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/@shared/shared.module.ts",
+          "hash": "1829577446667103535",
+          "deps": [
+            "npm:@angular/core",
+            "npm:ng-zorro-antd",
+            "npm:@angular/common",
+            "npm:@ant-design/icons-angular"
+          ]
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "9508617690071558714"
+        },
+        {
+          "file": "src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/app.component.spec.ts",
+          "hash": "4016187621626562615",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "7604825439249435865",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@auth0/auth0-angular",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/app.config.ts",
+          "hash": "4528235699489951649",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@auth0/auth0-angular",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "src/app/app.routes.ts",
+          "hash": "8338665505650129407",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/auth.guard.ts",
+          "hash": "12427074710653819021",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@auth0/auth0-angular",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/core.module.ts",
+          "hash": "3724303880330026680",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "src/app/modules/dashboard/components/dashboard/dashboard.component.html",
+          "hash": "11412130365323700914"
+        },
+        {
+          "file": "src/app/modules/dashboard/components/dashboard/dashboard.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/modules/dashboard/components/dashboard/dashboard.component.spec.ts",
+          "hash": "8213465137135699087",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/dashboard/components/dashboard/dashboard.component.ts",
+          "hash": "15565836543480644693",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/dashboard/dashboard-routing.module.ts",
+          "hash": "17943804370156017061",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/modules/dashboard/dashboard.module.ts",
+          "hash": "6269038291987828384",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/modules/login/components/login-btn/login-btn.component.html",
+          "hash": "7918278338892001825"
+        },
+        {
+          "file": "src/app/modules/login/components/login-btn/login-btn.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/modules/login/components/login-btn/login-btn.component.spec.ts",
+          "hash": "6433775141435024983",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/login/components/login-btn/login-btn.component.ts",
+          "hash": "11101959729922924570",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@auth0/auth0-angular"
+          ]
+        },
+        {
+          "file": "src/app/modules/login/components/login/login.component.html",
+          "hash": "5272612067433198795"
+        },
+        {
+          "file": "src/app/modules/login/components/login/login.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/modules/login/components/login/login.component.spec.ts",
+          "hash": "10730385221617188498",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/login/components/login/login.component.ts",
+          "hash": "13944678326086304520",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/login/login-routing.module.ts",
+          "hash": "10700374092190513649",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/modules/login/login.module.ts",
+          "hash": "10685009134874445675",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/component/add/add.component.html",
+          "hash": "5439190627639025967"
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/component/add/add.component.scss",
+          "hash": "5807077909415848477"
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/component/add/add.component.spec.ts",
+          "hash": "7230785320939083047",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/component/add/add.component.ts",
+          "hash": "10798452954398525717",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:ng-zorro-antd",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/manage-vehicle-routing.module.ts",
+          "hash": "1458839443040284593",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/manage-vehicle.module.ts",
+          "hash": "6306115715544279529",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/modules/manage-vehicle/shared-form.module.ts",
+          "hash": "13322556590606247883",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/index.html",
+          "hash": "9903671287043507268"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "875041330523952236",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "1042225695207430067"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "1268827265237270571"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "14560978611694835822"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "16227375016570950083"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ]
+    }
+  }
+}
